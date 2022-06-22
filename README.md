@@ -243,7 +243,7 @@ RoamTrackingMode.customIOS(activityType, desiredAccuracyIOS, allowBackgroundLoca
 
 </div>
 
-##Create Planned Trip
+## Create Planned Trip
 
 Use the below code to create a trip using the `RoamTrip` class. Set
 **Boolean** isLocal value `true` to create offline trip and `false` to create
@@ -274,7 +274,7 @@ Roam.createTrip(roamTrip, ({roamTripResponse}) {
 
 </div>
 
-##Start Planned Trip
+## Start Planned Trip
 
 To start a previously created trip, pass the `trip id` in `startTrip` method
 
@@ -297,7 +297,7 @@ Roam.startTrip(({roamTripResponse}) {
 
 </div>
 
-##Update Trip
+## Update Trip
 
 To update an existing trip, create a `RoamTrip` object with `isLocal` boolean value and `tripID`.
 
@@ -321,7 +321,7 @@ Roam.updateTrip(updateTrip, ({roamTripResponse}) {
 
 </div>
 
-##Pause Trip
+## Pause Trip
 
 To pause a running trip, pass the `trip id` to `pauseTrip()` method.
 
@@ -341,7 +341,7 @@ Roam.pauseTrip(tripId, ({roamTripResponse}) {
 
 </div>
 
-##Resume Trip
+## Resume Trip
 
 To resume a paused trip, pass the `trip id` to `resumeTrip()` method.
 
@@ -362,7 +362,7 @@ Roam.resumeTrip(tripId, ({roamTripResponse}) {
 
 </div>
 
-##End Trip
+## End Trip
 
 To end an existing trip, pass the `trip id` and ***bool*** value to stop tracking in `endTrip()` method.
 
@@ -384,7 +384,7 @@ Roam.endTrip(tripId, false, ({roamTripResponse}) {
 
 </div>
 
-##Delete Trip
+## Delete Trip
 
 To delete a trip, pass the `trip id` in `deleteTrip()` method.
 
@@ -405,7 +405,7 @@ Roam.deleteTrip(tripId, ({roamDeleteTripResponse}) {
 
 </div>
 
-##Sync Trip
+## Sync Trip
 
 To sync an offline trip, pass the `trip id` in the `syncTrip` method.
 
@@ -425,7 +425,7 @@ Roam.syncTrip(tripId, ({roamSyncTripResponse}) {
 
 </div>
 
-##Get Trip
+## Get Trip
 
 To get details of a trip, pass the `trip id` in `getTrip()` method.
 
@@ -446,7 +446,7 @@ Roam.getTrip(tripId, ({roamTripResponse}) {
 
 </div>
 
-##Get Active Trips
+## Get Active Trips
 
 To get active trips, pass ***bool*** value as `true` for offline trips and `false` for online trips.
 
@@ -466,7 +466,7 @@ Roam.getActiveTrips(false, ({roamActiveTripResponse}) {
 
 </div>
 
-##Get Trip Summary
+## Get Trip Summary
 
 To get the trip summary with route coordinates, pass `trip id` in the `getTripSummary()` method.
 
@@ -486,7 +486,7 @@ Roam.getTripSummary(tripId, ({roamTripResponse}) {
 
 </div>
 
-##Subscribe Trip
+## Subscribe Trip
 
 To subscribe to the real-time status of any ongoing trip, pass the `trip id` in the `subscribeTrip()` method.
 
@@ -502,7 +502,7 @@ Roam.subscribeTrip(tripId);
 
 </div>
 
-##Unsubscribe Trip
+## Unsubscribe Trip
 
 <div class="code panel pdl" style="border-width: 1px;">
 
