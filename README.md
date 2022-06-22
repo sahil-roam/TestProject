@@ -90,7 +90,7 @@ Roam.toggleEvents(location: true,geofence: true,trips: true,movingGeofence: true
 
 # Trips V1
 
-***NOTE***: Trips V1 below is supported only up to 0.0.X. Trips V2 support starts from 0.1.X versions.
+***NOTE***: Trips V1 is supported only up to 0.0.X. Trips V2 support starts from 0.1.X versions.
 
 Use the below code to create a trip directly from the SDK. Set
 **Boolean** value `true` to create offline trip and `false` to create
