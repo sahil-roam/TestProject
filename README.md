@@ -173,11 +173,12 @@ To get the trip summary.
 ``` dart
 Roam.getTripSummary(tripId: <TRIP-ID>);
 ```
+	</div>
+	</div>
 
+# Trips V2
 
-#Trips V2
-
-##Quick Trip
+## Quick Trip
 
 A `RoamTrip` object must be passed for quickTrip.
 Set isLocal **Boolean** value `true` to create offline trip and `false` to create
